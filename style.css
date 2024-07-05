@@ -1,0 +1,158 @@
+
+/*CABECALHO*/
+header{ 
+  height: 50px;
+  background-color: #7df0b1;
+  display: flex;
+  justify-content: space-around;
+}
+.logo-imagem{
+  width: 50px;
+  height: 50px;
+  background-color:#ffffff ;
+}
+.container-logo{
+  display: flex;
+  align-items: center;
+}
+.logo-texto{
+  margin-left: 10px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.menu li{
+  display: inline-block;
+  margin: 0 10px;
+  }
+.menu li a{
+  font-size: 16px;
+  text-decoration: none;
+  color:#0e361b;
+  text-transform: uppercase;
+  font-family: "Oleo Script", system-ui;
+  font-weight: bold;
+  } 
+     
+  /*IMAGEM E TÍTULO PRINCIPAL*/  
+  .container-principal img{
+    width: 100%;
+    height: 100vh;
+  }
+  .container-principal{
+    display: flex;
+    width:100%;
+    height: 90vh;
+    position: relative;
+    justify-content: space-around;   
+    }
+
+    h1{
+      font-size: 98px;
+      color:#ffffff;
+      font-weight: "Oleo Script", system-ui;
+      position: absolute;
+      top: 25%;
+      left: 17%;
+    }
+    h2{
+      font-size: 20px;
+      color:#ffffff;
+      font-weight: "Oleo Script", system-ui;
+      position: absolute;
+      top: 60%;
+      left: 35%;
+    }  
+
+  /*H5*/
+  h5{
+    color: #070707;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+  } 
+
+  /*H6*/
+  h6{
+    color:#000000;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-align: justify;
+  }  
+
+    /*DIVISOR LOCAÇÃO*/
+.container-divisor1{
+  width: 100%;
+  height: 10%;
+  background-color: #7df0b1;
+}
+/*CONTAINER IMAGENS*/
+.container-img1{
+  display: flex;
+}
+.box-text3{
+  text-align: center;
+  font-size: 16px;
+  color:#000000;
+  font-weight: "Oleo Script", system-ui;
+}
+.menu2 li a{
+  font-size: 24px;
+  text-decoration: none;
+  color:#0e361b;
+  font-family: "Oleo Script", system-ui;
+  font-weight: bold;
+  } 
+    /*DIVISOR VENDA*/
+.container-divisor2{
+  width: 100%;
+  height: 10%;
+  background-color: #7df0b1;
+}
+
+.container-img2{
+  display: flex;
+}
+.menu2 li a {
+  font-size: 24px;
+  text-decoration: none;
+  color:#0e361b;
+  font-family: "Oleo Script", system-ui;
+  font-weight: bold;
+}
+/*DIVISOR1 BRANCO*/
+.container-divisor3{
+  width: 100%;
+  height: 20px;
+  background-color: #ffffff;
+}
+/*DIVISOR2 BRANCO*/
+.container-divisor4{
+  width: 100%;
+  height: 20px;
+  background-color: #ffffff;
+}
+
+/*RODAPÉ*/
+footer{
+  width: 100%;
+  height: 25%;
+  background-color: #eb34cd;
+  text-align: center;
+  }
+
+  /*DIVISOR DA LOCAÇÃO E VENDA DE IMÓVEIS*/
+.menu2 li{
+  display: inline-block;
+  margin: 0 10px;
+  }
+.menu2 li a{
+  font-size: 24px;
+  text-decoration: none;
+  color:#0e361b;  
+  font-family: "Oleo Script", system-ui;
+  font-weight: bold;
+  text-align: center;
+  } 
+
+ 
